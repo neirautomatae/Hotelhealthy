@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
+    android:background="@drawable/bgcal"
     tools:context=".Cal">
 
     <EditText
         android:id="@+id/txtbmr3"
         android:layout_width="202dp"
         android:layout_height="40dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         android:textColorHint="#0A0A0A"
@@ -20,8 +22,7 @@
         app:layout_constraintHorizontal_bias="0.799"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.422"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.422" />
 
     <Button
         android:id="@+id/btnboy"
@@ -185,6 +186,7 @@
         android:id="@+id/txtbmr2"
         android:layout_width="202dp"
         android:layout_height="40dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         android:textColor="#0F0F0F"
@@ -194,14 +196,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.799"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/txtbmr1"
         android:layout_width="202dp"
         android:layout_height="40dp"
         android:layout_marginBottom="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="number"
         android:textColor="#0F0F0F"
@@ -212,7 +214,6 @@
         app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtbmr2"
-        app:layout_constraintVertical_bias="0.053"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.053" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

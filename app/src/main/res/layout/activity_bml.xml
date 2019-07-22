@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bml"
     tools:context=".Bml">
 
     <Button
@@ -75,8 +76,8 @@
 
     <TextView
         android:id="@+id/viewresultbmi"
-        android:layout_width="50dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:hint="0.0"
         android:textColor="#FCF7F7"
         android:textColorHint="#FFFEFE"
